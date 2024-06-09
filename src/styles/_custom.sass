@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 18%
+    left: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 20%
+    left: -7%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    left: 60%
 
 
 @keyframes float1
@@ -17,3 +22,106 @@
 
   100%
     transform: translateY(0px)
+
+//Banners
+.banner-principal__info
+  @media screen and (max-width: $bp-max-xl)
+    padding-right: 5rem
+  @media screen and (max-width: $bp-max-md)
+    padding-right: 1.125rem
+.banner-principal__img
+  padding-bottom: 0 !important
+  padding-top: 2rem !important
+  img
+    max-width: 419px
+    margin: 0 auto
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right
+    background-image: url(../assets/curso/fondo_tema.png) !important
+.titulo-principal.color-acento-contenido
+  .titulo-principal__numero
+    span
+      color: $color-sistema-texto
+
+//color de fondos
+.fondo-color-sistema-g
+  background-color: $color-sistema-g !important
+.fondo-color-sistema-h
+  background-color: $color-sistema-h !important
+.fondo-color-sistema-i
+  background-color: $color-sistema-i !important
+//.fondo-color-sistema-j
+//  background-color: $color-sistema-j !important
+//.fondo-color-sistema-k
+//  background-color: $color-sistema-k !important
+//.fondo-color-sistema-l
+//  background-color: $color-sistema-l !important
+//.fondo-color-sistema-m
+//  background-color: $color-sistema-m !important
+//.fondo-color-sistema-n
+//  background-color: $color-sistema-n !important
+//.fondo-color-sistema-o
+//  background-color: $color-sistema-o !important
+//.fondo-color-sistema-p
+//  background-color: $color-sistema-p !important
+//.fondo-color-sistema-q
+//  background-color: $color-sistema-q !important
+//.fondo-color-sistema-r
+//  background-color: $color-sistema-r !important
+//.fondo-color-sistema-s
+//  background-color: $color-sistema-s !important
+.fondo-color-primario
+  background-color: $color-primario !important
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido !important
+
+//bordes
+.borde-10
+  border-radius: 10px !important
+
+//fondos personalizados
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/4.png)
+    background-repeat: no-repeat
+    background-position: bottom
+    background-size: cover
+    border-bottom-left-radius: 25px
+    border-bottom-right-radius: 25px
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 55px
