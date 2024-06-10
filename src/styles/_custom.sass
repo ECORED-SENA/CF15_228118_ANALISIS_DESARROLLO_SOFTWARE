@@ -52,6 +52,32 @@
     span
       color: $color-sistema-texto
 
+//titulos
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+    color: white
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 23px
+    background: rgb(119,55,240)
+    background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+    border-radius: 6px
+    z-index: 0
+
+//colores
+.color-acento-contenido,span.color-acento-contenido
+  color: $color-acento-contenido !important
+
 //color de fondos
 .fondo-color-sistema-g
   background-color: $color-sistema-g !important
@@ -59,12 +85,12 @@
   background-color: $color-sistema-h !important
 .fondo-color-sistema-i
   background-color: $color-sistema-i !important
-//.fondo-color-sistema-j
-//  background-color: $color-sistema-j !important
-//.fondo-color-sistema-k
-//  background-color: $color-sistema-k !important
-//.fondo-color-sistema-l
-//  background-color: $color-sistema-l !important
+.fondo-color-sistema-j
+  background-color: $color-sistema-j !important
+.fondo-color-sistema-k
+  background-color: $color-sistema-k !important
+.fondo-color-sistema-l
+  background-color: $color-sistema-l !important
 //.fondo-color-sistema-m
 //  background-color: $color-sistema-m !important
 //.fondo-color-sistema-n
@@ -85,8 +111,14 @@
   background-color: $color-acento-contenido !important
 
 //bordes
+.borde-5
+  border-radius: 5px !important
 .borde-10
   border-radius: 10px !important
+.borde-20
+  border-radius: 20px !important
+.borde-29
+  border-radius: 29px !important
 
 //fondos personalizados
 .fondo-personalizado-1
@@ -111,6 +143,9 @@
     @media screen and (max-width: $bp-max-sm)
       width: 110%
       left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
     top: 0
     bottom: 0
     z-index: 0
@@ -125,3 +160,194 @@
   &.pos-1
     &:before
       top: 55px
+
+.fondo-personalizado-2
+  background: rgb(119,55,240)
+  background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+
+.fondo-personalizado-3
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/12.png)
+    background-repeat: no-repeat
+    background-position: bottom
+    background-size: 100%
+    @media screen and (max-width: $bp-max-lg)
+      background-size: cover
+      background-position: unset
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      background-position: top
+      background-image: url(../assets/curso/temas/39.png)
+
+.fondo-personalizado-4
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/15.png)
+    background-repeat: no-repeat
+    background-position: bottom
+    background-size: 100%
+    @media screen and (max-width: $bp-max-md)
+      background-size: cover
+      background-position: unset
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      background-position: top
+  &.pos-2
+    &:before
+      background-position: top
+      background-size: cover
+
+.fondo-personalizado-5
+  background-image: url(../assets/curso/temas/15.png)
+  background-repeat: no-repeat
+  background-position: bottom
+  background-size: 100%
+
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/24.png)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 100%
+    @media screen and (max-width: $bp-max-md)
+      background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      background-size: cover
+      background-position: top
+
+
+.fondo-personalizado-7
+  background-image: url(../assets/curso/temas/31.png)
+  background-repeat: no-repeat
+  background-size: cover
+
+
+//burbujas
+.burbuja-1
+  display: inline-block
+  padding: 0.6rem
+  border-radius: 50%
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+  -moz-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+  box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+
+//tarjetas
+.tarjeta-personalizada-1
+  border-radius: 10px
+  cursor: pointer
+  background-color: $color-sistema-j
+  &:hover
+    background-color: $color-primario
+  transition: background-color .3s
+
+.tarjeta-img-1
+  position: relative
+  border-radius: 22px
+  overflow: hidden
+  &__texto
+    position: absolute
+    bottom: 0
+    width: 100%
+    text-align: center
+    p
+      font-weight: bold
+      margin-bottom: 0
+      color: $color-acento-contenido
+
+//tabs
+.tabs-b
+  &__tab
+    background-color: white !important
+    border-bottom: none
+    &__title
+      h4
+        font-weight: normal
+    &--active
+      h4
+        font-weight: bold
+      background-color: $color-sistema-l !important
+      border-right: none
