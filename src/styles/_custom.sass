@@ -75,7 +75,7 @@
     z-index: 0
 
 //colores
-.color-acento-contenido,span.color-acento-contenido
+.c-color-acento-contenido,span.c-color-acento-contenido
   color: $color-acento-contenido !important
 
 //color de fondos
@@ -305,6 +305,48 @@
   background-repeat: no-repeat
   background-size: cover
 
+.fondo-personalizado-8
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/47.png)
+    background-repeat: no-repeat
+    background-position: bottom
+    background-size: 100%
+    @media screen and (max-width: $bp-max-md)
+      background-size: cover
+      background-position: unset
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      background-size: cover
+      background-position: top
+
 
 //burbujas
 .burbuja-1
@@ -351,3 +393,21 @@
         font-weight: bold
       background-color: $color-sistema-l !important
       border-right: none
+
+//otros
+.grid-container
+  display: grid
+  grid-template-columns: repeat(5, 1fr)
+  gap: 12px
+  @media screen and (max-width: $bp-max-lg)
+    grid-template-columns: repeat(4, 1fr)
+  @media screen and (max-width: $bp-max-md)
+    grid-template-columns: repeat(2, 1fr)
+  @media screen and (max-width: $bp-max-sm)
+    grid-template-columns: repeat(1, 1fr)
+
+//tablas
+.tabla-a
+  thead
+    th
+      color: white !important

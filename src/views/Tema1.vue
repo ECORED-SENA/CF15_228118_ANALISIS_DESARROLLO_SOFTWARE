@@ -21,7 +21,7 @@
                       figure.p-1
                         img.mx-auto(src="@/assets/curso/temas/6.svg",style="max-width: 72px;")
                 .col 
-                  p.color-acento-contenido.mb-4.fw-bold Según con Letelier y Canos (2003)
+                  p.c-color-acento-contenido.mb-4.fw-bold Según con Letelier y Canos (2003)
                   p.mb-0.text-white Las metodologías ágiles son procesos para desarrollar #[em software] de manera rápida y con gran facilidad de adopción por los equipos de trabajo. Se han seleccionado las metodologías ágiles más referenciadas para emplearlas en el desarrollo de aplicaciones móviles, lo cual resulta muy conveniente teniendo en cuenta el crecimiento de los proyectos para estas tecnologías.
           .col-lg-4.order-first.order-lg-last
             figure.mb-4.mb-lg-0
@@ -107,27 +107,27 @@
         .row 
           .col-lg-4.col-md-6.mb-4
             .fondo-color-primario.borde-20.p-4.pb-5.text-center.h-100
-              i.fas.fa-cube.color-acento-contenido.mb-3(style="font-size: 28px;")
+              i.fas.fa-cube.c-color-acento-contenido.mb-3(style="font-size: 28px;")
               h4.mb-0.text-white #[em Product Backlog]
           .col-lg-4.col-md-6.mb-4
             .fondo-color-sistema-k.borde-20.p-4.pb-5.text-center.h-100
-              i.fas.fa-cube.color-acento-contenido.mb-3(style="font-size: 28px;")
+              i.fas.fa-cube.c-color-acento-contenido.mb-3(style="font-size: 28px;")
               h4.mb-0.text-white #[em Sprint Backlog]
           .col-lg-4.col-md-6.mb-4
             .fondo-color-sistema-k.borde-20.p-4.pb-5.text-center.h-100
-              i.fas.fa-cube.color-acento-contenido.mb-3(style="font-size: 28px;")
+              i.fas.fa-cube.c-color-acento-contenido.mb-3(style="font-size: 28px;")
               h4.mb-0.text-white #[em Sprint Planning Meeting]
           .col-lg-4.col-md-6.mb-4
             .fondo-color-sistema-k.borde-20.p-4.pb-5.text-center.h-100
-              i.fas.fa-cube.color-acento-contenido.mb-3(style="font-size: 28px;")
+              i.fas.fa-cube.c-color-acento-contenido.mb-3(style="font-size: 28px;")
               h4.mb-0.text-white #[em Daily Scrum]
           .col-lg-4.col-md-6.mb-4
             .fondo-color-primario.borde-20.p-4.pb-5.text-center.h-100
-              i.fas.fa-cube.color-acento-contenido.mb-3(style="font-size: 28px;")
+              i.fas.fa-cube.c-color-acento-contenido.mb-3(style="font-size: 28px;")
               h4.mb-0.text-white #[em Sprint Review]
           .col-lg-4.col-md-6.mb-4
             .fondo-color-sistema-k.borde-20.p-4.pb-5.text-center.h-100
-              i.fas.fa-cube.color-acento-contenido.mb-3(style="font-size: 28px;")
+              i.fas.fa-cube.c-color-acento-contenido.mb-3(style="font-size: 28px;")
               h4.mb-0.text-white #[em Sprint Retrospective]
 
       .col-lg-6.order-first.order-lg-last.mb-4
