@@ -77,6 +77,8 @@
 //colores
 .c-color-acento-contenido,span.c-color-acento-contenido
   color: $color-acento-contenido !important
+.color-sistema-n
+  color: $color-sistema-n !important
 
 //color de fondos
 .fondo-color-sistema-g
@@ -115,6 +117,10 @@
   border-radius: 5px !important
 .borde-10
   border-radius: 10px !important
+.borde-11
+  border-radius: 11px !important
+.borde-16
+  border-radius: 16px !important
 .borde-20
   border-radius: 20px !important
 .borde-29
@@ -350,6 +356,76 @@
       background-size: cover
       background-position: top
 
+.fondo-personalizado-9
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/62.png)
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &__contenido
+    position: relative
+
+.fondo-personalizado-10
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/66.png)
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &__contenido
+    position: relative
+
 
 //burbujas
 .burbuja-1
@@ -454,3 +530,9 @@
       transform: translateX(calc( -50px -  147px))
   &__contenido
     position: relative
+
+//listas
+.lista-p-1
+  li
+    display: flex
+    margin-bottom: 1px
