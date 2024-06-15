@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.pb-0.pb-md-0
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Entornos de desarrollo
     
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p.mb-4 Un entorno de desarrollo es un #[em software] que facilita un conjunto de herramientas que permiten crear una aplicación. Estos entornos contienen soporte para uno o varios lenguajes de programación y son los encargados de depurar, compilar, realizar pruebas y convertir nuestro código en una aplicación ejecutable.
         p.mb-0 Los entornos más utilizados para el desarrollo de aplicaciones nativas son: Xcode para la plataforma iOS y Android Studio para la plataforma Android.
       .col-lg-5.order-first.order-lg-last
@@ -41,7 +41,7 @@
                 p.mb-3.c-color-acento-contenido.text-start Visual Studio
                 p.text-white.text-start(style="font-weight: normal;") Creado por Microsoft en 1997, es un IDE compatible con Windows, Linux y macOS. Soporta múltiples lenguajes de programación y entornos de desarrollo web, con versiones gratuitas y de pago. Lenguajes soportados: C++, C#, Visual Basic .NET, F#, Java, Python, Ruby, PHP, ASP.NET. 
     
-    .row.mb-4 
+    .row.mb-4(data-aos="fade-left")
       .col-auto.d-none.d-md-block 
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/5.svg",style="max-width: 85px;")
@@ -50,20 +50,20 @@
       
     Separador
 
-    #t_3_1.titulo-segundo.color-acento-contenido.mb-lg-2
+    #t_3_1.titulo-segundo.color-acento-contenido.mb-lg-2(data-aos="fade")
       h2 3.1 Plataforma Android
     
     .fondo-personalizado-8.mb-5
       .fondo-personalizado-8__contenido.pb-4
         .row.align-items-center.mb-5
-          .col-lg-7
+          .col-lg-7(data-aos="fade-up")
             p.mb-4 Es un sistema operativo móvil desarrollado por Google, de código abierto y basado en Linux. Ofrece una optimización de la máquina virtual denominada Dalvik VM y soporta la mayoría de las API de Java SE para el desarrollo de aplicaciones. Está enfocado en ser utilizado en dispositivos móviles como teléfonos inteligentes, tabletas, Google TV y otros dispositivos.
             p.mb-0 Sus características son: 
           .col-lg-5.order-first.order-lg-last
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/45.svg",style="max-width: 505px;")
         
-        .grid-container
+        .grid-container(data-aos="fade-down")
           .borde-20.p-3.text-center.h-100.fondo-color-primario
             i.fas.fa-mobile-alt(style="font-size: 35px;").mb-4.c-color-acento-contenido
             h4.text-white Contiene un #[em framework] de aplicaciones para la reutilización de componentes.
@@ -80,11 +80,11 @@
             img.mx-auto(src="@/assets/curso/temas/46.svg",style="max-width: 43px;").mb-4
             h4.text-white Adaptable a muchas pantallas y resoluciones.
     
-    h4.fondo-color-primario.mb-5.text-white.px-4.py-2.d-inline-block.borde-20 Versiones
+    h4.fondo-color-primario.mb-5.text-white.px-4.py-2.d-inline-block.borde-20(data-aos="zoom-in-out") Versiones
 
-    p.mb-5 Android ha lanzado muchas versiones desde su inicio, con numerosas actualizaciones. Cada nueva versión corrige fallos detectados en las anteriores e incluye nuevas funcionalidades con soporte para las nuevas tecnologías. Curiosamente, las versiones de Android reciben el nombre de postres o dulces, cuyos nombres van en orden alfabético, una tradición que se mantuvo hasta la versión 9.
+    p.mb-5(data-aos="flip-up") Android ha lanzado muchas versiones desde su inicio, con numerosas actualizaciones. Cada nueva versión corrige fallos detectados en las anteriores e incluye nuevas funcionalidades con soporte para las nuevas tecnologías. Curiosamente, las versiones de Android reciben el nombre de postres o dulces, cuyos nombres van en orden alfabético, una tradición que se mantuvo hasta la versión 9.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1.] Nombres versiones y lanzamiento de sistema operativo Android
@@ -181,14 +181,14 @@
                 td.text-center Versión 13
                 td 15 de agosto de 2022
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade")
       .col-auto.d-none.d-md-block
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/8.svg",style="max-width: 85px;")
       .col
         p.mb-0 A continuación, se presenta un esquema que resume lo anterior:
     
-    .row 
+    .row(data-aos="fade")
       .col-lg-1.d-none.d-lg-block 
       .col-lg-9
         .titulo-sexto.color-acento-contenido
@@ -197,7 +197,7 @@
           img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 925px;",alt='En esta figura se presentan las diversas versiones de "Android"')
           figcaption.mt-1(style="background-color: #F6F6F6 !important;font-size: 14px;font-weight: normal;") #[em Nota]. Tomado de El origen de Android (Características y Costos, por F. Olmos, 2020)
     
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
+    .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="zoom-in-out")
       .row
         .col-auto.pe-0
           figure
@@ -205,37 +205,58 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Arquitectura
     
-    .row
-      .col-auto.d-none.d-md-block
-        figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/16.svg",style="max-width: 85px;")
-      .col
-        p.mb-0 Los componentes principales de la plataforma Android están diseñados para una variedad de dispositivos. Android es de código abierto y está basado en Linux.
-    
-    p(style="color: red;") faltantes !!!!
+    .fondo-personalizado-burbuja
+      .fig-burbuja.left(style="top: 550px;")
+      .fig-burbuja.right(style="top: 25px;")
+      .fig-burbuja.tam-2.right(style="top: 1100px;")
+      .fondo-personalizado-burbuja__contenido
+        .row.mb-5(data-aos="fade-up")
+          .col-auto.d-none.d-md-block
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/16.svg",style="max-width: 85px;")
+          .col
+            p.mb-0 Los componentes principales de la plataforma Android están diseñados para una variedad de dispositivos. Android es de código abierto y está basado en Linux.
+        
+        .row.justify-content-center(data-aos="fade-down")
+          .col-lg-8
+            figure.mb-3
+              img.mx-auto(src="@/assets/curso/temas/96.svg",style="max-width: 820px;")
+            
+            AcordionA.acordion-personalizado-1.mb-5(tipo="a" clase-tarjeta="acordion-personalizado-1__tarjeta")
+              div.ms-md-5(titulo="A) System Apps")
+                p.ps-md-2.mb-4.pt-md-0.pt-2 Aplicaciones del sistema que permiten a los desarrolladores acceder desde sus propias aplicaciones simplemente invocándolas, sin necesidad de compilar funcionalidades específicas.
+              div.ms-md-5(titulo="B) Java API Framework")
+                p.ps-md-2.mb-4.pt-md-0.pt-2 Conjunto de API escritas en Java que permiten acceder a las funciones del sistema operativo Android. Estas API facilitan la creación de aplicaciones Android mediante la reutilización de componentes del sistema y servicios como sistemas de vista (compilar IU), administrador de recursos (acceso a strings, gráficos, etc.), administrador de notificaciones, y proveedores de contenido.
+              div.ms-md-5(titulo="C) Nativa C/C++ Libraries")
+                p.ps-md-2.mb-4.pt-md-0.pt-2 Bibliotecas basadas en código nativo que proporcionan diversas funcionalidades esenciales al sistema operativo.
+              div.ms-md-5(titulo="D) Hardware Abstraction Layer HAL")
+                p.ps-md-2.mb-4.pt-md-0.pt-2 Capa de abstracción de hardware que ofrece interfaces para exponer las capacidades del hardware del dispositivo. Incluye módulos de bibliotecas que implementan una interfaz para cada tipo específico de hardware, como la cámara del dispositivo.
+              div.ms-md-5(titulo="E) Linux Kernel")
+                p.ps-md-2.mb-4.pt-md-0.pt-2 Base de la plataforma Android, necesaria para funcionalidades subyacentes como la administración de memoria de bajo nivel y la generación de subprocesos.
+     
 
     .row.mb-4
-      .col-auto.d-none.d-md-block
+      .col-auto.d-none.d-md-block(data-aos="fade-right")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/16.svg",style="max-width: 85px;")
-      .col
+      .col(data-aos="fade-left")
         p.mb-0 A continuación, se presenta una descripción completa del IDE Android Studio, que como se mencionó anteriormente, es el entorno oficial para el desarrollo de aplicaciones móviles nativas en Android.
     
     Separador
 
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 3.2 Android Studio
     .fondo-personalizado-6.pos-2
       .fondo-personalizado-6__contenido
         .row.mb-5
-          .col-lg-7
+          .col-lg-7(data-aos="fade-right")
             p.mb-4 Android Studio está basado en IntelliJ IDEA de la compañía JetBrains, que proporciona varias mejoras con respecto al plugin ADT (Android Developer Tools) para Eclipse. Android Studio utiliza una licencia de #[em software] libre Apache 2.0, está programado en Java y es multiplataforma. Fue presentado por Google el 16 de mayo de 2013 en el congreso de desarrolladores Google I/O, con el objetivo de crear un entorno dedicado exclusivamente a la programación de aplicaciones para dispositivos Android, proporcionando a Google un mayor control sobre el proceso de producción. Actualmente, es el IDE recomendado por Google.
             p.mb-0 Las características son:
-          .col-lg-5.order-first.order-lg-last
+          .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/49.png",style="max-width: 502px;")
 
-        .row.justify-content-center.pt-3
+        .row.justify-content-center.pt-3(data-aos="fade")
           .col-lg-8
             .py-4.py-md-1.px-4.borde-29.mb-2(style="background-color: #4F4415;")
               .row.align-items-center
@@ -296,7 +317,7 @@
             p.mb-0 La realización de aplicaciones en Android Studio se enfoca en 4 fases de desarrollo:
 
     .row.mt-5.pt-2.mb-3
-      .col-lg-3.mb-4
+      .col-lg-3.mb-4(data-aos="fade-up")
         .tarjeta-personalizada-2.pb-4.h-100
           .d-flex.mb-5
             .burbuja-1.fondo-color-acento-contenido.mx-auto
@@ -305,7 +326,7 @@
           p.mb-0.c-color-acento-contenido.fw-bold Fase 1.
           p.mb-4.c-color-acento-contenido.fw-bold Configuración de entorno.
           p.mb-0.text-white En esta fase se realiza la instalación y configuración del entorno de desarrollo, se conectan dispositivos y se crean emuladores virtuales.
-      .col-lg-3.mb-4
+      .col-lg-3.mb-4(data-aos="fade-up")
         .tarjeta-personalizada-2.pb-4.h-100
           .d-flex.mb-5
             .burbuja-1.fondo-color-acento-contenido.mx-auto
@@ -314,7 +335,7 @@
           p.mb-0.c-color-acento-contenido.fw-bold Fase 2.
           p.mb-4.c-color-acento-contenido.fw-bold Configuración del Proyecto y Desarrollo.
           p.mb-0.text-white Esta fase involucra configurar los módulos necesarios que contienen recursos de la aplicación y los archivos de código fuente.
-      .col-lg-3.mb-4
+      .col-lg-3.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-2.pb-4.h-100
           .d-flex.mb-5
             .burbuja-1.fondo-color-acento-contenido.mx-auto
@@ -323,7 +344,7 @@
           p.mb-0.c-color-acento-contenido.fw-bold Fase 3.
           p.mb-4.c-color-acento-contenido.fw-bold Pruebas, depuración y Construcción de la aplicación.
           p.mb-0.text-white Se crea el ejecutable o APK que puede ejecutarse e instalarse en el emulador o dispositivo Android.
-      .col-lg-3.mb-4
+      .col-lg-3.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-2.pb-4.h-100
           .d-flex.mb-5
             .burbuja-1.fondo-color-acento-contenido.mx-auto
@@ -366,14 +387,14 @@
     
     h4.fondo-color-primario.mb-5.text-white.px-4.py-2.d-inline-block.borde-20 Versiones
 
-    .row.mb-5
+    .row.mb-5(data-aos="flip-up")
       .col-auto.d-none.d-md-block
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/16.svg",style="max-width: 85px;")
       .col
         p.mb-0 Así como el sistema operativo Android tiene una gran variedad de actualizaciones, el ritmo de actualizaciones de Android Studio es bastante alto. A continuación, se listan las últimas versiones desde la más actual hasta la más antigua.
 
-    .fondo-personalizado-4
+    .fondo-personalizado-4(data-aos="flip-up")
       .fondo-personalizado-4__contenido.pb-5
         .row.justify-content-center.pb-5
           .col-lg-8

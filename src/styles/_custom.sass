@@ -128,6 +128,8 @@
   border-radius: 14px !important
 .borde-20
   border-radius: 20px !important
+.borde-22
+  border-radius: 22px !important
 .borde-29
   border-radius: 29px !important
 
@@ -541,6 +543,52 @@
   &__contenido
     position: relative
 
+.fondo-personalizado-14
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: #E8EEFE
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 141px
+    left: 0
+    top: 0
+    transform: translateX(-55%) translateY(-15%)
+  .imgf-2
+    position: absolute
+    max-width: 88px
+    bottom: 0
+    left: 0px
+    transform: translateY(50%) translateX(30%)
+  .imgf-3
+    position: absolute
+    max-width: 80px
+    top: 0
+    left: 300px
+    transform: translateY(38%) translateX(25%)
+  .imgf-4
+    position: absolute
+    max-width: 107px
+    top: 0
+    right: 0
+    transform: translateY(-48%) translateX(48%)
+  .imgf-5
+    position: absolute
+    max-width: 367px
+    bottom: 0
+    right: 0
+    transform: translateY(33%) translateX(15%)
+
+
 //burbujas
 .burbuja-1
   display: inline-block
@@ -641,6 +689,12 @@
 .fondo-personalizado-burbuja
   position: relative
   .fig-burbuja
+    &.tam-2
+      height: 205px
+      width: 205px
+      &.right
+        right: 0
+        transform: translateX(calc(147px))
     height: 294px
     width: 294px
     background-color: white
@@ -663,3 +717,43 @@
   li
     display: flex
     margin-bottom: 1px
+
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: $color-sistema-texto
+
+.acordion-personalizado-1
+  &__tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-primario
+    .acordion__titulo
+      h3
+        color: white !important
+    &.acordion__activo
+      background-color: $color-sistema-p
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto !important
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones !important

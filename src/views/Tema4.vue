@@ -2,22 +2,22 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Instalación y configuración entorno Android Studio
     
     .fondo-personalizado-2.borde-11.py-3.px-4.mb-5
       .row.align-items-center
-        .col-md-auto 
+        .col-md-auto(data-aos="fade")
           .d-flex.mb-4.mb-md-0
             .burbuja-1.fondo-color-acento-contenido.mx-auto.position-relative(style="height: 86px;width: 86px;")
               figure.position-absolute(style="top: 0;left: -3px;min-width: 96px;")
                 img.mx-auto(src="@/assets/curso/temas/57.svg",style="width: 96px;")
-        .col
+        .col(data-aos="fade-left")
           p.mb-0.text-white Para la instalación, lo primero que se debe tener en cuenta son los requisitos mínimos que debe cumplir el equipo. Para un mejor rendimiento y para asegurar que el emulador funcione correctamente, se necesita un equipo de trabajo adecuado que cuente con las propiedades recomendadas para cada sistema operativo.
     
-    .row.pt-3
+    .row.pt-3(data-aos="flip-up")
       .col-auto.d-none.d-md-block
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/8.svg",style="max-width: 85px;")
@@ -27,7 +27,7 @@
     .fondo-personalizado-9.mb-5
       .fondo-personalizado-9__contenido.pt-5
         .row
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="fade-up")
             .borde-16.p-4.fondo-color-primario.h-100
               .mb-4.position-relative.d-flex.align-items-center.justify-content-center
                 figure
@@ -48,7 +48,7 @@
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
                   span.text-white 1280 x 800 minimum screen resolution
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="fade-down")
             .borde-16.p-4.fondo-color-primario.h-100
               .mb-4.position-relative.d-flex.align-items-center.justify-content-center
                 figure
@@ -69,7 +69,7 @@
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
                   span.text-white 1280 x 800 minimum screen resolution
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="fade-up")
             .borde-16.p-4.fondo-color-primario.h-100
               .mb-4.position-relative.d-flex.align-items-center.justify-content-center
                 figure
@@ -92,13 +92,13 @@
                   span.text-white 1280 x 800 minimum screen resolution
 
     .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Además de estos requisitos del sistema, para una instalación exitosa y un funcionamiento correcto del #[em software], se deben considerar otros elementos. Dependiendo del sistema operativo que se utilice, ya sea Ubuntu, Linux, Windows 10 o Mac OS, es necesario seguir unas instrucciones específicas para cada uno de ellos. Se puede encontrar información al respecto en el enlace proporcionado.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/63.png",style="max-width: 502px;")
     
-    .row.justify-content-center 
+    .row.justify-content-center
       .col-lg-10
         .p-4.fondo-color-primario.borde-11.mb-5(data-aos="flip-up")
           .row
@@ -127,7 +127,7 @@
         .row.justify-content-center
           .col-lg-10
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/65.jpg",style="max-width: 1030px;",alt='La imagen presenta la página de descarga para el "software" Android Studio')
     .d-flex.mb-5
       .me-3
@@ -143,7 +143,7 @@
         .row.justify-content-center
           .col-lg-10
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/67.svg",style="max-width: 1030px;",alt='Se presentan los términos y condiciones de la instalación de "Android Studio" para "Windows"')
     .d-flex.mb-5
       .me-3
@@ -159,7 +159,7 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/68.svg",style="max-width: 610px;",alt='En la imagen se presenta la ventana de inicio para instalar una  versión de "Android Studio"')
     .d-flex.mb-5
       .me-3
@@ -175,7 +175,7 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/69.svg",style="max-width: 610px;",alt='En la imagen se muestran las opciones de componentes para la instalación de "Android Studio setup"')
     .d-flex.mb-5
       .me-3
@@ -191,7 +191,7 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/70.jpg",style="max-width: 610px;",alt='La imagen presenta las opciones que se pueden escoger al iniciar el menú archivo.')
     .row.mb-5
       .col-auto.d-none.d-md-block
@@ -209,7 +209,7 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/71.svg",style="max-width: 610px;",alt='La imagen indica que el proceso de instalación de "Android studio" ha sido completado.')
 
     .d-flex.mb-5
@@ -226,7 +226,7 @@
         .row.justify-content-center
           .col-lg-8
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/72.svg",style="max-width: 820px;",alt='La imagen indica  las opciones que presenta el asistente  para importar la instalación.')
 
     .d-flex.mb-5
@@ -243,7 +243,7 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="zoom-in-out")
               img.mx-auto(src="@/assets/curso/temas/73.svg",style="max-width: 610px;",alt='La imagen presenta  el mensaje de bienvenida que presenta el asistente de instalación del  "software"  "Wizard Android Studio".')
 
     .d-flex.mb-5
@@ -260,7 +260,7 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="flip-up")
               img.mx-auto(src="@/assets/curso/temas/75.svg",style="max-width: 610px;",alt='La imagen presenta  los tipos de instalación  que se pueden seleccionar.')
     
     .d-flex.mb-5
@@ -277,15 +277,15 @@
         .row.justify-content-center
           .col-lg-6
 
-            figure
+            figure(data-aos="flip-up")
               img.mx-auto(src="@/assets/curso/temas/76.jpg",style="max-width: 610px;",alt='La imagen presenta  las opciones para elegir el tema visual.')
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="zoom-in-out")
       .me-3
         h4.fondo-color-acento-contenido.d-inline-block.px-1 I
       p.mb-0 En la siguiente pantalla del asistente marcar los componentes adicionales a instalar. En el campo Android SDK Location se indica la ruta donde se desea instalar el SDK de Android.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="flip-up")
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-0
           p.mb-0 #[b Figura 18.] Configuración de componentes
@@ -297,7 +297,7 @@
             figure
               img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 610px;",alt='La imagen presenta la configuración de  los diferentes componentes.')
 
-    .d-flex.mb-5
+    .d-flex.mb-5(data-aos="fade")
       .me-3
         h4.fondo-color-acento-contenido.d-inline-block.px-1 J
       p.mb-0 Indicar la cantidad de memoria que se utilizará para el emulador y clic en "Next".
@@ -353,13 +353,13 @@
           .col-lg-6
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 21.] #[em SDK Manager]
-            figure
+            figure(data-aos="flip-up")
               img.mx-auto(src="@/assets/curso/temas/81.svg",style="max-width: 635px;",alt='La imagen presenta  la opción de selección del administrador de "SDK".')
 
         .cont-titulo-decorativo.p-2.mt-5.mb-4
           .row
             .col-auto.pe-0
-              figure
+              figure(data-aos="flip-up")
                 img(src="@/assets/curso/temas/img-titulo-dec.svg")
             .col.align-self-end
               h3.mt-3.mb-0.me-2 #[em SDK Platforms]
@@ -369,7 +369,7 @@
             .fondo-color-sistema-o.p-4.borde-14
               p.mb-4 #[em SDK Platforms] permite seleccionar los componentes y librerías necesarios para desarrollar sobre cada una de las versiones de Android. Por ejemplo, si se desea probar la aplicación en dispositivos con Android 8 y Android 10, se deben descargar las plataformas correspondientes a las versiones 26 y 29, respectivamente. Para ver los subcomponentes de cada plataforma, seleccione la opción "Show Package Details" situada en la parte inferior de la ventana. Para cada versión de Android instalada, se deben tener al menos los siguientes dos elementos:
 
-              ul.lista-ul.lista-p-1.mb-4
+              ul.lista-ul.lista-p-1.mb-4(data-aos="fade-down")
                 li
                   i.fas.fa-cube.c-color-primario.mt-1(style="font-size: 12px;")
                   span Android SDK Platform
@@ -390,7 +390,7 @@
           .col-lg-10
             .titulo-sexto.color-acento-contenido.mb-5
               p.mb-0 #[b Figura 22.] #[em SDK Platforms]
-            figure
+            figure(data-aos="fade-left")
               img.mx-auto(src="@/assets/curso/temas/84.svg",style="max-width: 1028px;",alt='La imagen presenta las opciones de plataformas "Android". En el Manager se encuentran componentes disponibles agrupados en dos pestañas principales: "SDK Platforms" y "SDK Tools".')
     
     .cont-titulo-decorativo.p-2.mt-0.mb-5
@@ -404,9 +404,9 @@
     .row.align-items-center.mb-5
       .col-lg-7
         .fondo-color-sistema-o.p-4.borde-14
-          p.mb-4 #[em SDK Tools] son componentes para el SDK que incluyen herramientas para el desarrollo y la depuración. Los indispensables por el momento, que ya deberían aparecer instalados por defecto, son los siguientes:
+          p.mb-4(data-aos="fade-left") #[em SDK Tools] son componentes para el SDK que incluyen herramientas para el desarrollo y la depuración. Los indispensables por el momento, que ya deberían aparecer instalados por defecto, son los siguientes:
 
-          ul.lista-ul.lista-p-1.mb-4
+          ul.lista-ul.lista-p-1.mb-4(data-aos="zoom-in-out")
             li
               i.fas.fa-cube.c-color-primario.mt-1(style="font-size: 12px;")
               span Android SDK Build-Tools
@@ -430,7 +430,7 @@
           .col-lg-10
             .titulo-sexto.color-acento-contenido.mb-5
               p.mb-0 #[b Figura 23.] #[em SDK Tools]
-            figure
+            figure(data-aos="flip-up")
               img.mx-auto(src="@/assets/curso/temas/86.svg",style="max-width: 1028px;",alt='La imagen presenta  las opciones de versión para las  herramientas de SDK.')
     
     
