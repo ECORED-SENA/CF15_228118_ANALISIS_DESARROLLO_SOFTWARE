@@ -80,6 +80,9 @@
 .color-sistema-n
   color: $color-sistema-n !important
 
+.c-color-primario
+  color: $color-primario
+
 //color de fondos
 .fondo-color-sistema-g
   background-color: $color-sistema-g !important
@@ -95,10 +98,10 @@
   background-color: $color-sistema-l !important
 .fondo-color-sistema-m
   background-color: $color-sistema-m !important
-//.fondo-color-sistema-n
-//  background-color: $color-sistema-n !important
-//.fondo-color-sistema-o
-//  background-color: $color-sistema-o !important
+.fondo-color-sistema-n
+  background-color: $color-sistema-n !important
+.fondo-color-sistema-o
+  background-color: $color-sistema-o !important
 //.fondo-color-sistema-p
 //  background-color: $color-sistema-p !important
 //.fondo-color-sistema-q
@@ -121,6 +124,8 @@
   border-radius: 11px !important
 .borde-16
   border-radius: 16px !important
+.borde-14
+  border-radius: 14px !important
 .borde-20
   border-radius: 20px !important
 .borde-29
@@ -426,6 +431,115 @@
   &__contenido
     position: relative
 
+.fondo-personalizado-11
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/74.png)
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &__contenido
+    position: relative
+
+.fondo-personalizado-12
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+      background-size: cover
+      bottom: 150px
+      top: 150px
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: -180px
+    z-index: 0
+    background-image: url(../assets/curso/temas/83.png)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 100%
+  &__contenido
+    position: relative
+  &.pos-1
+    background-size: cover !important
+    bottom: 0 !important
+
+.fondo-personalizado-13
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/83.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
 
 //burbujas
 .burbuja-1
@@ -468,6 +582,19 @@
   position: relative
   border-radius: 22px
   overflow: hidden
+  &.bmed-custom
+    @media screen and (max-width: $bp-max-xl)
+      padding-bottom: 6rem
+    @media screen and (max-width: $bp-max-lg)
+      padding-bottom: 11rem
+    @media screen and (max-width: $bp-max-md)
+      padding-bottom: 0
+    @media screen and (max-width: 450px)
+      padding-bottom: 2.5rem
+    @media screen and (max-width: 430px)
+      padding-bottom: 4.5rem
+    @media screen and (max-width: 380px)
+      padding-bottom: 9rem
   &__texto
     position: absolute
     bottom: 0

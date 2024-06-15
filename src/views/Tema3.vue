@@ -15,7 +15,31 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/41.png",style="max-width: 502px;")
 
-    p(style="color: red;") faltantes!!!!!!!!!!!!!!!!
+    .fondo-personalizado-4.pos-1.mb-5
+      .fondo-personalizado-4__contenido.pt-4
+        .row.justify-content-center
+          .col-lg-4.col-md-9.mb-5(data-aos="fade-right")
+            .tarjeta-img-1.bmed-custom
+              figure.tarjeta-img-1__img
+                img.mx-auto(src="@/assets/curso/temas/87.png")
+              .tarjeta-img-1__texto.p-3.fondo-color-primario
+                p.mb-3.c-color-acento-contenido.text-start Xcode
+                p.text-white.text-start(style="font-weight: normal;") Entorno de desarrollo integrado (IDE) para iOS, macOS, watchOS y tvOS, creado por Apple. Incluye herramientas para construir, probar y empaquetar aplicaciones para su envío al App Store. Lenguajes soportados: C, C++, Objective-C, Objective-C++, Java, AppleScript, Python, Ruby, ResEdit, Swift. 
+          .col-lg-4.col-md-9.mb-5(data-aos="fade-up")
+            .tarjeta-img-1.bmed-custom
+              figure.tarjeta-img-1__img
+                img.mx-auto(src="@/assets/curso/temas/88.png")
+              .tarjeta-img-1__texto.p-3.fondo-color-primario
+                p.mb-3.c-color-acento-contenido.text-start Android Studio
+                p.text-white.text-start.mb-lg-4(style="font-weight: normal;") IDE oficial para el desarrollo de aplicaciones Android, ofrece compilación flexible y un entorno unificado para todos los dispositivos Android. Incluye integración con GitHub y herramientas de diagnóstico. Lenguajes soportados: Java, Kotlin.
+
+          .col-lg-4.col-md-9.mb-5(data-aos="fade-left")
+            .tarjeta-img-1.bmed-custom
+              figure.tarjeta-img-1__img
+                img.mx-auto(src="@/assets/curso/temas/89.png")
+              .tarjeta-img-1__texto.p-3.fondo-color-primario
+                p.mb-3.c-color-acento-contenido.text-start Visual Studio
+                p.text-white.text-start(style="font-weight: normal;") Creado por Microsoft en 1997, es un IDE compatible con Windows, Linux y macOS. Soporta múltiples lenguajes de programación y entornos de desarrollo web, con versiones gratuitas y de pago. Lenguajes soportados: C++, C#, Visual Basic .NET, F#, Java, Python, Ruby, PHP, ASP.NET. 
     
     .row.mb-4 
       .col-auto.d-none.d-md-block 
