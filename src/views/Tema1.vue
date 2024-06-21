@@ -21,7 +21,7 @@
                       figure.p-1
                         img.mx-auto(src="@/assets/curso/temas/6.svg",style="max-width: 72px;")
                 .col 
-                  p.c-color-acento-contenido.mb-4.fw-bold Según con Letelier y Canos (2003)
+                  p.c-color-acento-contenido.mb-4.fw-bold Según, Letelier y Canos (2003)
                   p.mb-0.text-white Las metodologías ágiles son procesos para desarrollar #[em software] de manera rápida y con gran facilidad de adopción por los equipos de trabajo. Se han seleccionado las metodologías ágiles más referenciadas para emplearlas en el desarrollo de aplicaciones móviles, lo cual resulta muy conveniente teniendo en cuenta el crecimiento de los proyectos para estas tecnologías.
           .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
@@ -140,7 +140,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/18.svg",style="max-width: 85px;")
       .col
-        p.mb-0 Consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, es decir, en la fase de desarrollo. Posteriormente, los desarrolladores realizan su trabajo, se efectúan algunas pruebas y se retroalimenta de acuerdo con lo conseguido al terminar la última fase.
+        p.mb-0 Consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un #[em sprint], es decir, en la fase de desarrollo. Posteriormente, los desarrolladores realizan su trabajo, se efectúan algunas pruebas y se retroalimenta de acuerdo con lo conseguido al terminar la última fase.
     
     .titulo-sexto.color-acento-contenido(data-aos="flip-up")
       p.mb-0 #[b Figura 2.] Modelo ágil #[em Scrum]
@@ -191,7 +191,7 @@
           figure
             img(src="@/assets/curso/temas/img-titulo-dec.svg")
         .col.align-self-end
-          h3.mt-3.mb-0.me-2 Mobile-D
+          h3.mt-3.mb-0.me-2 #[em Mobile]-D
     .fondo-personalizado-6.mb-5
       .fondo-personalizado-6__contenido
         .row.mb-5

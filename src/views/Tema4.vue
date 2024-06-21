@@ -41,13 +41,13 @@
                   span.text-white 64-bit Microsoft® Windows® 8/10
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 8 GB RAM or more
+                  span.text-white 8 GB de RAM o más
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 8 GB of available disk space minimum (IDE + Android SDK + Android Emulator)
+                  span.text-white 8 GB de espacio mínimo disponible en disco (IDE + SDK de Android + Emulador de Android)
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 1280 x 800 minimum screen resolution
+                  span.text-white Resolución de pantalla mínima de 1280 x 800
           .col-lg-4.mb-4(data-aos="fade-down")
             .borde-16.p-4.fondo-color-primario.h-100
               .mb-4.position-relative.d-flex.align-items-center.justify-content-center
@@ -59,16 +59,16 @@
               ul.lista-ul.lista-p-1.mb-4
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white MacOS® 10.14 (Mojave) or higher
+                  span.text-white MacOS® 10.14 (Mojave) o superior
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 8 GB RAM or more
+                  span.text-white 8 GB de RAM o más
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 8 GB of available disk space minimum (IDE + Android SDK + Android Emulator)
+                  span.text-white 8 GB de espacio mínimo disponible en disco (IDE + SDK de Android + Emulador de Android)
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 1280 x 800 minimum screen resolution
+                  span.text-white Resolución de pantalla mínima de 1280 x 800
           .col-lg-4.mb-4(data-aos="fade-up")
             .borde-16.p-4.fondo-color-primario.h-100
               .mb-4.position-relative.d-flex.align-items-center.justify-content-center
@@ -80,16 +80,16 @@
               ul.lista-ul.lista-p-1.mb-4
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white Any 64-bit Linux distribution that supports Gnome, KDE, or Unity DE; GNU C Library (glibc) 2.31 or later.
+                  span.text-white Cualquier distribución de Linux de 64 bits que admita Gnome, KDE o Unity DE; Biblioteca GNU C (glibc) 2.31 o posterior.
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 8 GB RAM or more
+                  span.text-white 8 GB de RAM o más
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 8 GB of available disk space minimum (IDE + Android SDK + Android Emulator)
+                  span.text-white 8 GB de espacio mínimo disponible en disco (IDE + SDK de Android + Emulador de Android)
                 li
                   i.fas.fa-cube.c-color-acento-contenido.mt-1(style="font-size: 12px;")
-                  span.text-white 1280 x 800 minimum screen resolution
+                  span.text-white Resolución de pantalla mínima de 1280 x 800
 
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")

@@ -250,7 +250,7 @@
       .fondo-personalizado-6__contenido
         .row.mb-5
           .col-lg-7(data-aos="fade-right")
-            p.mb-4 Android Studio está basado en IntelliJ IDEA de la compañía JetBrains, que proporciona varias mejoras con respecto al plugin ADT (Android Developer Tools) para Eclipse. Android Studio utiliza una licencia de #[em software] libre Apache 2.0, está programado en Java y es multiplataforma. Fue presentado por Google el 16 de mayo de 2013 en el congreso de desarrolladores Google I/O, con el objetivo de crear un entorno dedicado exclusivamente a la programación de aplicaciones para dispositivos Android, proporcionando a Google un mayor control sobre el proceso de producción. Actualmente, es el IDE recomendado por Google.
+            p.mb-4 Android Studio está basado en IntelliJ IDEA de la compañía JetBrains, que proporciona varias mejoras con respecto al #[em plugin] ADT (Android Developer Tools) para Eclipse. Android Studio utiliza una licencia de #[em software] libre Apache 2.0, está programado en Java y es multiplataforma. Fue presentado por Google el 16 de mayo de 2013 en el congreso de desarrolladores Google I/O, con el objetivo de crear un entorno dedicado exclusivamente a la programación de aplicaciones para dispositivos Android, proporcionando a Google un mayor control sobre el proceso de producción. Actualmente, es el IDE recomendado por Google.
             p.mb-0 Las características son:
           .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
@@ -333,7 +333,7 @@
               figure.p-3
                 img.mx-auto(src="@/assets/curso/temas/51.svg",style="max-width: 69px;")
           p.mb-0.c-color-acento-contenido.fw-bold Fase 2.
-          p.mb-4.c-color-acento-contenido.fw-bold Configuración del Proyecto y Desarrollo.
+          p.mb-4.c-color-acento-contenido.fw-bold Configuración del proyecto y desarrollo.
           p.mb-0.text-white Esta fase involucra configurar los módulos necesarios que contienen recursos de la aplicación y los archivos de código fuente.
       .col-lg-3.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-2.pb-4.h-100
@@ -342,7 +342,7 @@
               figure.p-3
                 img.mx-auto(src="@/assets/curso/temas/52.svg",style="max-width: 70px;")
           p.mb-0.c-color-acento-contenido.fw-bold Fase 3.
-          p.mb-4.c-color-acento-contenido.fw-bold Pruebas, depuración y Construcción de la aplicación.
+          p.mb-4.c-color-acento-contenido.fw-bold Pruebas, depuración y construcción de la aplicación.
           p.mb-0.text-white Se crea el ejecutable o APK que puede ejecutarse e instalarse en el emulador o dispositivo Android.
       .col-lg-3.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-2.pb-4.h-100
@@ -392,14 +392,14 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/16.svg",style="max-width: 85px;")
       .col
-        p.mb-0 Así como el sistema operativo Android tiene una gran variedad de actualizaciones, el ritmo de actualizaciones de Android Studio es bastante alto. A continuación, se listan las últimas versiones desde la más actual hasta la más antigua.
+        p.mb-0 Así como el sistema operativo Android tiene una gran variedad de actualizaciones, el ritmo de actualizaciones de Android Studio es bastante alto. A continuación, se listan las últimas versiones, desde la más actual hasta la más antigua.
 
     .fondo-personalizado-4(data-aos="flip-up")
       .fondo-personalizado-4__contenido.pb-5
         .row.justify-content-center.pb-5
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 2.] Nombres versiones y lanzamiento de sistema operativo Android
+              p.mb-0 #[b Tabla 2.] Nombres, versiones y lanzamiento de sistema operativo Android
 
             .tabla-a.color-acento-contenido.fondo-color-sistema-h
               table

@@ -7,7 +7,7 @@
         span 2
       h1 Plataformas de desarrollo móvil nativas
     
-    p.mb-4(data-aos="fade") Las plataformas de desarrollo móvil nativas, son aquellas que tienen un desarrollo específico para cada uno de sus sistemas operativos; #[em IOS, Android, o Windows Phone], lo que quiere decir que para cada uno de estos Sistemas Operativos se adapta un lenguaje de desarrollo así:
+    p.mb-4(data-aos="fade") Las plataformas de desarrollo móvil nativas, son aquellas que tienen un desarrollo específico para cada uno de sus sistemas operativos; IOS, Android, o Windows Phone, lo que quiere decir que para cada uno de estos Sistemas Operativos se adapta un lenguaje de desarrollo así:
 
     .fondo-personalizado-4.pos-1.mb-5
       .fondo-personalizado-4__contenido.pt-4
@@ -48,7 +48,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Rendimiento
     
-    p.mb-4(data-aos="zoom-in-out") El rendimiento de las aplicaciones nativas es otra de sus características principales, ya que ofrecen mayor velocidad, animaciones avanzadas, transiciones complejas, aprovechamiento total del hardware (GPS, cámara, sensores, etc.) y un menor consumo de memoria.
+    p.mb-4(data-aos="zoom-in-out") El rendimiento de las aplicaciones nativas es otra de sus características principales, ya que ofrecen mayor velocidad, animaciones avanzadas, transiciones complejas, aprovechamiento total del #[em hardware] (GPS, cámara, sensores, etc.) y un menor consumo de memoria.
     p Ventajas de las aplicaciones nativas:
 
     .fondo-personalizado-6.pos-1.mb-5
