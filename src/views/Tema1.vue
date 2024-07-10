@@ -69,7 +69,7 @@
         
         .row(data-aos="zoom-in-out")
           .col-lg-7
-            p.mb-0 Es una metodología liviana, aplicable en grupos de desarrollo pequeños y medianos que se centra en requerimientos no exactos y en continuo cambio. Se caracteriza por tener un ciclo de vida dinámico, a través de ciclos de desarrollo cortos denominados iteraciones. Sus fases son análisis, diseño, desarrollo y pruebas, en las cuales se aplican 12 prácticas.
+            p.mb-0 Es una metodología liviana, aplicable en grupos de desarrollo pequeños y medianos, que se centra en requerimientos no exactos y en continuo cambio. Se caracteriza por tener un ciclo de vida dinámico, a través de ciclos de desarrollo cortos denominados iteraciones. Sus fases son análisis, diseño, desarrollo y pruebas, en las cuales se aplican 12 prácticas.
           .col-lg-5.order-first.order-lg-last
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/11.png",style="max-width: 505px;")
@@ -99,7 +99,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 #[em SCRUM]
     
-    p.mb-4(data-aos="fade-up") #[em Scrum], según Takeuchi & Nonaka (1986), presenta un proceso adaptativo, rápido y auto-organizado para el desarrollo de productos, centrado en la gestión de proyectos en situaciones que son difíciles de planificar a futuro. El término "Scrum" proviene del famoso juego de rugby y hace referencia a la forma en que se reintroduce un balón que ha salido del campo al terreno de juego de manera colectiva.
+    p.mb-4(data-aos="fade-up") #[em Scrum], según Takeuchi & Nonaka (1986), presenta un proceso adaptativo, rápido y autoorganizado para el desarrollo de productos, centrado en la gestión de proyectos en situaciones que son difíciles de planificar a futuro. El término "Scrum" proviene del famoso juego de rugby y hace referencia a la forma en que se reintroduce un balón que ha salido del campo al terreno de juego de manera colectiva.
     p.mb-4(data-aos="fade-down") Este modelo se basa en el desarrollo incremental, es decir, conforme avanzan las fases y la iteración, mayor es el tamaño del proyecto que se está desarrollando. Los procesos que utiliza son:
 
     .row.align-items-end.mb-3

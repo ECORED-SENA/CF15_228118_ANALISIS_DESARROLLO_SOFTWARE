@@ -96,7 +96,7 @@
                   figure.mb-4.mb-md-0
                     img.mx-auto(src="@/assets/curso/temas/36.svg",style="max-width: 50px;")
                 .col 
-                  p.mb-0.text-white.fw-bold Disponen de SDKs para la optimización de librerías.
+                  p.mb-0.text-white.fw-bold Disponen de SDK para la optimización de librerías.
     
         .cont-titulo-decorativo.p-2.mt-5(data-aos="fade")
           .row
@@ -114,7 +114,7 @@
           .burbuja-1.fondo-color-acento-contenido.me-auto.mb-5
             figure.p-1
               img.mx-auto(src="@/assets/curso/temas/37.svg",style="max-width: 57px;")
-          p.mb-5.text-white El #[em front-end] también llamado parte cliente, es el segmento de lógica de visualización e interacción con el usuario, que se ejecuta en los dispositivos a través de su sistema operativo, como Android o iOS.
+          p.mb-5.text-white El #[em front-end], también llamado parte cliente, es el segmento de lógica de visualización e interacción con el usuario, que se ejecuta en los dispositivos a través de su sistema operativo, como Android o iOS.
       .col-lg-5.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-1.p-5.h-100.pb-4
           .burbuja-1.fondo-color-acento-contenido.me-auto.mb-5

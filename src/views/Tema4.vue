@@ -372,13 +372,13 @@
               ul.lista-ul.lista-p-1.mb-4(data-aos="fade-down")
                 li
                   i.fas.fa-cube.c-color-primario.mt-1(style="font-size: 12px;")
-                  span Android SDK Platform
+                  span Android SDK Platform.
                 li
                   i.fas.fa-cube.c-color-primario.mt-1(style="font-size: 12px;")
-                  span Google APIs
+                  span Google APIs.
                 li
                   i.fas.fa-cube.c-color-primario.mt-1(style="font-size: 12px;")
-                  span Intel x86 Atom System Image
+                  span Intel x86 Atom System Image.
 
           .col-lg-5.order-first.order-lg-last
             figure.mb-4.mb-lg-0
